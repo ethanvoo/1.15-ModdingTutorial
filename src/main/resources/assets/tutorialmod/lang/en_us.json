@@ -1,0 +1,20 @@
+{
+	"item.tutorialmod.ruby": "Ruby",
+	"item.tutorialmod.sapphire": "Sapphire",
+	"item.tutorialmod.test_item": "Strawberry",
+	"item.tutorialmod.silver": "Silver",
+	
+	"item.tutorialmod.ruby_sword": "Ruby Sword",
+	"item.tutorialmod.ruby_axe": "Ruby Axe",
+	"item.tutorialmod.ruby_pickaxe": "Ruby Pickaxe",
+
+	"item.tutorialmod.ruby_helmet": "Ruby Helmet",
+	"item.tutorialmod.ruby_chestplate": "Ruby Chestplate",
+	"item.tutorialmod.ruby_leggings": "Ruby Leggings",
+	"item.tutorialmod.ruby_boots": "Ruby Boots",
+	
+	"itemGroup.tutorialtab":"Mod Tab",
+	
+	"block.tutorialmod.ruby_ore": "Ruby Ore"
+}	
+

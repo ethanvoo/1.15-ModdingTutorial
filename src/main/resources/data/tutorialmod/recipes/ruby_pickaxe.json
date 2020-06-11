@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern" : [
+		"###",
+		" W ",
+		" W "
+	],
+
+	"key": {
+		"#": {
+			"item": "tutorialmod:ruby"
+		},
+		"W": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "tutorialmod:ruby_pickaxe"
+	}
+}
