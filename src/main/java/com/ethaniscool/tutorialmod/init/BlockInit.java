@@ -19,17 +19,17 @@ import net.minecraftforge.registries.ObjectHolder;
 @Mod.EventBusSubscriber(modid = TutorialMod.MOD_ID, bus = Bus.MOD)
 public class BlockInit 
 {
-	public static final Block ruby_ore = null;
+	public static final Block test_ore = null;
 	
 	@SubscribeEvent
 	public static void registerItemBlocks(final RegistryEvent.Register<Block> event) 
 	{
-		event.getRegistry().register(new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0F, 15.0F).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName("ruby_ore"));
+		event.getRegistry().register(new Block(Block.Properties.create(Material.IRON).hardnessAndResistance(3.0F, 15.0F).sound(SoundType.METAL).harvestTool(ToolType.PICKAXE)).setRegistryName("test_ore"));
 	}
 	@SubscribeEvent
 	public static void registerBlockItems(final RegistryEvent.Register<Item> event) 
 	{
-		event.getRegistry().register(new BlockItem(ruby_ore, new Item.Properties().maxStackSize(32).group(TutorialItemGroup.instance)).setRegistryName("ruby_ore"));
+		event.getRegistry().register(new BlockItem(test_ore, new Item.Properties().maxStackSize(32).group(TutorialItemGroup.instance)).setRegistryName("test_ore"));
 	}
 }
 
