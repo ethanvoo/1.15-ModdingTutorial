@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "tutorialmod:blocks/ruby_ore" }
+        "": { "model": "tutorialmod:block/ruby_ore" }
     }
 }
