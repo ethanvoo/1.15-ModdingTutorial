@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "II",
+    " i",
+    " i"
+  ],
+  "key": {
+    "I": {
+      "item": "tutorialmod:ruby"
+    },
+    "i": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:ruby_hoe"
+  }
+}
